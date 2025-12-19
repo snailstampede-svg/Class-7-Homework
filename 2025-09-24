@@ -1,0 +1,54 @@
+
+
+AWS
+
+-----
+Security Groups:
+
+1. Build a Security Group (Port 22 and 80)
+-Name: wolfpack-wednesday
+-Description: wolfpack-wednesday
+-VPC: Leave as default
+-
+Inbound Rules
+-Add Rule
+-type SSH | Protocol: TCP | Port Range: 22 | Source Type: Anywhere IPv4 | Source: Default (0.0.0.0) | Description: SSH
+
+-Add Rule
+-type HTTP | Protocol: TCP | Port Range: 80 | Source Type: Anywhere IPv4 | Source: Default (0.0.0.0) | Description: HTTP
+
+Outbound Rules
+-DO NOT Touch OR YOU WILL BE STUCK IN A PIT OF HELL WITH KEISHA FOR ETERNITY!!!
+
+Tags
+-Key: Name
+Value: wolfpack wednesday
+
+
+
+
+
+
+
+
+2. Build an EC2 Instance (Amazon Linux based 2023)
+
+3. Build a Key Pair
+
+4. Copy and Paste Theo's EC2 Script
+
+5. Launch Instance
+
+6. Copy and Paste Public DNS
+
+7. Paste "http:<public-dns>" - to show EC2 Script WebServer created.
+
+ 
+
+8. SSH into EC2 Instance as it's running
+
+9. Modify EC2 Script and refresh the WebServer page
+
+10. Ping IP address 8.8.8.8 (Google DNS) to show web connectivity.
+
+11. Complete
