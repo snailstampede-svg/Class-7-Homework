@@ -16,11 +16,14 @@ README.md instructions on how to configure the EC2 with teardown instructions.
 1. ### Create a Security Group
 
 - Log in to AWS Console
+![login to console](wk1-Screenshots/login.png)
 
 - Access the EC2 dashboard. (There are a few ways to do this)
 
-- On the left side of the screen, scroll down to Network and Security sub-heading and click on Security Groups
+![EC2 Dashboard](<wk1-Screenshots/EC2 Dashboard.png>)
 
+- On the left side of the screen, scroll down to Network and Security sub-heading and click on Security Groups
+![alt text](wk1-Screenshots/1-3-click-security-groups.png)
 - On Security groups page, click Create Security group
 
 - Enter Basic details as follows:
