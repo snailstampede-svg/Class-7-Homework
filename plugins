@@ -1,0 +1,45 @@
+# AWS
+aws-credentials
+pipeline-aws
+ec2
+amazon-ecs
+aws-codedeploy
+aws-lambda
+amazon-s3-credentials
+aws-secrets-manager-secret-source
+aws-codepipeline
+configuration-as-code-aws-ssm
+cloudformation
+aws-sam
+
+# Terraform
+terraform
+
+# Google
+kubernetes
+google-storage-plugin
+google-kubernetes-engine
+gcp-java-sdk-auth
+pipeline-gcp-steps
+
+# DevSecOps & Sonar
+snyk-security-scanner
+sonar
+
+# Aqua
+aqua-docker-scanner
+aqua-microscanner
+aqua-security-serverless
+
+# GitHub
+github
+github-oauth
+pipeline-github-lib
+pipeline-githubnotify-step
+
+# Maven
+maven-plugin
+pipeline-maven
+
+# Publish
+publish-over-ss
